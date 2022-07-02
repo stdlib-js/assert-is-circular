@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isCircular;
+})();
 })();
 </script>
 ```
@@ -105,6 +107,7 @@ bool = isCircular( obj );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var obj1 = {
     'a': 'beep',
@@ -148,6 +151,7 @@ bool = isCircular( {} );
 bool = isCircular( null );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -244,9 +248,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-circular-array]: https://github.com/stdlib-js/assert-is-circular-array/tree/umd
+[@stdlib/assert/is-circular-array]: https://github.com/stdlib-js/assert-is-circular-array/tree/umd/tree/umd
 
-[@stdlib/assert/is-circular-plain-object]: https://github.com/stdlib-js/assert-is-circular-plain-object/tree/umd
+[@stdlib/assert/is-circular-plain-object]: https://github.com/stdlib-js/assert-is-circular-plain-object/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
