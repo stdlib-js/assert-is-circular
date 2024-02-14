@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isCircular from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular@deno/mod.js';
+import isCircular from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular@v0.2.0-deno/mod.js';
 ```
 
 #### isCircular( value )
@@ -86,7 +86,7 @@ bool = isCircular( obj );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isCircular from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular@deno/mod.js';
+import isCircular from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular@v0.2.0-deno/mod.js';
 
 var obj1 = {
     'a': 'beep',
