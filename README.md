@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isCircular from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular@esm/index.mjs';
+import isCircular from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular@v0.2.1-esm/index.mjs';
 ```
 
 #### isCircular( value )
@@ -91,7 +91,7 @@ bool = isCircular( obj );
 <body>
 <script type="module">
 
-import isCircular from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular@esm/index.mjs';
+import isCircular from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-circular@v0.2.1-esm/index.mjs';
 
 var obj1 = {
     'a': 'beep',
